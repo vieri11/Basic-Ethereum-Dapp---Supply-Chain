@@ -3,3 +3,6 @@
 
 # compiled files
 bin/
+
+# deployed files
+build/

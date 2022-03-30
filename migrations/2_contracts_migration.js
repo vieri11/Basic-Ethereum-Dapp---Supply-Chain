@@ -1,5 +1,5 @@
 const SupplyChain = artifacts.require("SupplyChain");
-const erc20Token = artifacts.require("erc20Token");
+const erc20Token = artifacts.require("ERC20");
 
 module.exports = function (deployer) {
   deployer.deploy(SupplyChain);
