@@ -2,7 +2,7 @@
 // OpenZeppelin Contracts (last updated v4.5.0) (token/ERC20/ERC20.sol)
 pragma solidity ^0.8.12;
 
-contract SupplyChain {
+contract supplyChain {
 
     uint32 public product_id = 0;   // Product ID
     uint32 public participant_id = 0;   // Participant ID
@@ -38,7 +38,7 @@ contract SupplyChain {
 
     mapping(uint32 => uint32[]) public productTrack;  // ownerships by Product ID (product_id) / Movement track for a product  
 
-    event TransferOwnership(uint32 productId);
+    event TransferOwnership(uint32 indexed productId);
 
     function addParticipant(string memory _name, string memory _pass, address _pAdd, string memory _pType) public returns
     (uint32){
