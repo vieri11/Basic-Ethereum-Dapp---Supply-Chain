@@ -7,4 +7,10 @@ bin/
 # deployed files
 build/
 
+# nodeJS files
+node_modules/
+package-lock.json
+package.json
+
+# Metamask mnemonic
 secrets.json
