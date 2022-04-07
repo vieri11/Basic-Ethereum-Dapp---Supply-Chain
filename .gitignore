@@ -6,3 +6,5 @@ bin/
 
 # deployed files
 build/
+
+secrets.json
